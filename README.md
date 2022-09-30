@@ -1,4 +1,4 @@
-> **_NOTE:_** This provider is a fork of missing [keyva/terraform-provider-tss](https://github.com/keyva/terraform-provider-tss)
+> **_NOTE:_** This provider is a fork of missing [keyva/terraform-provider-tss](https://github.com/thycotic/terraform-provider-tss)
 
 # Thycotic Secret Server - Terraform Provider
 
@@ -28,7 +28,7 @@ of the user's profile. You may have to create the directory.
 
 Terraform 0.13 uses a different file system layout for 3rd party providers. More information on this can be found [here](https://www.terraform.io/upgrade-guides/0-13.html#new-filesystem-layout-for-local-copies-of-providers). The following folder path will need to be created in the plugins directory of the user's profile.
 
-#### Windows
+<!-- #### Windows
 
 ```text
 %APPDATA%\TERRAFORM.D\PLUGINS
@@ -36,7 +36,7 @@ Terraform 0.13 uses a different file system layout for 3rd party providers. More
     └───thycotic
         └───tss
             └───1.0.8
-                └───windows_amd64
+                └───windows_amd64 -->
 ```
 
 #### Linux
@@ -46,7 +46,7 @@ Terraform 0.13 uses a different file system layout for 3rd party providers. More
 └───terraform.thycotic.com
     └───thycotic
         └───tss
-            └───1.0.8
+            └───1.0.6
                 ├───linux_amd64
 ```
 
@@ -59,7 +59,7 @@ terraform {
   required_providers {
     tss = {
       source = "keyva/tss"
-      version = "1.0.8"
+      version = "1.0.6"
     }
   }
 }
