@@ -1,4 +1,4 @@
-module github.com/aperigault/terraform-provider-tss
+module github.com/keyva/terraform-provider-tss
 
 require (
 	github.com/hashicorp/go-getter v1.5.11 // indirect
