@@ -1,4 +1,4 @@
-> **_NOTE:_** This provider is a fork of missing [keyva/terraform-provider-tss](https://github.com/thycotic/terraform-provider-tss)
+> **_NOTE:_** This provider is a fork of missing [thycotic/terraform-provider-tss](https://github.com/thycotic/terraform-provider-tss)
 
 # Thycotic Secret Server - Terraform Provider
 
@@ -22,7 +22,7 @@ of the user's profile. You may have to create the directory.
 | OS      | Default Path                    |
 | ------- | ------------------------------- |
 | Linux   | `~/.terraform.d/plugins`        |
-| Windows | `%APPDATA%\terraform.d\plugins` |
+<!-- | Windows | `%APPDATA%\terraform.d\plugins` | -->
 
 ### Terraform 0.13 and later
 
