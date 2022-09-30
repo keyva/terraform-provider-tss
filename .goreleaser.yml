@@ -51,6 +51,10 @@ signs:
       - "--detach-sign"
       - "${artifact}"
 release:
+  disable: false
+  github:
+    owner: "atuli@keyvatech.com"
+    repo: "terraform-provider-tss"
   extra_files:
     - glob: 'terraform-registry-manifest.json'
       name_template: '{{ .ProjectName }}_{{ .Version }}_manifest.json'
