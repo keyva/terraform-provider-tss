@@ -18,8 +18,8 @@ For Terraform 0.13+, include the `terraform` block in your configuration or plan
 terraform {
   required_providers {
     tss = {
-      source = "thycotic/tss"
-      version = "1.0.2"
+      source = "keyva/tss"
+      version = "1.0.6"
     }
   }
 }

@@ -2,8 +2,8 @@ terraform {
   required_version = ">= 0.12.20"
   required_providers {
     tss = {
-      source  = "thycotic/tss"
-      version = "1.0.2"
+      source  = "keyva/tss"
+      version = "1.0.6"
     }
   }
 }
