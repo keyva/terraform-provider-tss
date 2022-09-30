@@ -1,4 +1,4 @@
-> **_NOTE:_** This provider is a fork of missing [thycotic/terraform-provider-tss](https://github.com/thycotic/terraform-provider-tss)
+> **_NOTE:_** This provider is a fork of missing [keyva/terraform-provider-tss](https://github.com/keyva/terraform-provider-tss)
 
 # Thycotic Secret Server - Terraform Provider
 
@@ -8,7 +8,7 @@ The [Thycotic](https://thycotic.com/) [Secret Server](https://thycotic.com/produ
 
 > Preferred way to install
 
-The latest release can be [downloaded from the terraform registry](https://registry.terraform.io/providers/aperigault/tss/latest). The documentation can be found [here](https://registry.terraform.io/providers/aperigault/tss/latest/docs).
+The latest release can be [downloaded from the terraform registry](https://registry.terraform.io/providers/keyva/tss/latest). The documentation can be found [here](https://registry.terraform.io/providers/keyva/tss/latest/docs).
 
 If wish to install straight from source, follow the steps below.
 
@@ -35,7 +35,7 @@ Terraform 0.13 uses a different file system layout for 3rd party providers. More
 └───terraform.thycotic.com
     └───thycotic
         └───tss
-            └───1.0.2
+            └───1.0.8
                 └───windows_amd64
 ```
 
@@ -46,7 +46,7 @@ Terraform 0.13 uses a different file system layout for 3rd party providers. More
 └───terraform.thycotic.com
     └───thycotic
         └───tss
-            └───1.0.2
+            └───1.0.8
                 ├───linux_amd64
 ```
 
@@ -58,8 +58,8 @@ For Terraform 0.13+, include the `terraform` block in your configuration, or pla
 terraform {
   required_providers {
     tss = {
-      source = "thycotic/tss"
-      version = "1.0.2"
+      source = "keyva/tss"
+      version = "1.0.8"
     }
   }
 }
